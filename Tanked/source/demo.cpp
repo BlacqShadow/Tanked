@@ -81,6 +81,15 @@ int main()
  	 *  Execute a trivial application loop with rendering of a message (so we know it works)
 	 */
 
+	 //  The main game loop two elements missing
+	 /*
+	 gameLoop()
+	 {
+		 getInput();
+		 update(); // Need to create these two parts
+		 render() // render part is available
+	 }
+	 */
 	while (wc.IsActive())
 	{
 		wc.Clear(255, 255, 255);
